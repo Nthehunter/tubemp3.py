@@ -8,10 +8,10 @@ También sirve para descargar playlist enteras!.
 
 Módulos usados:
 
-pytube
-os
-tkinter
-shutil
+pytube, 
+os,
+tkinter,
+shutil,
 moviepy
 
 Por si hay algún despistado los módulos se instalan de la siguiente manera:
