@@ -20,7 +20,7 @@ Escribir en CMD --- > pip install nombre_del_modulo
 
 Aunque esto puede ser ahorrado usando el ejecutable...
 
-En la carpeta build se encuentra el ejecutable del programa para los que quieran usarlo sin instalar python (Hay que descargarla entera para que funcione correctamente).
+En la carpeta your_mp3 se encuentra el ejecutable del programa para los que quieran usarlo sin instalar python (Hay que descargarla entera para que funcione correctamente).
 
 Algo más que añadir es que el antivirus muy probablemente te alerte pero el script está libre de virus no basta más que mirar el código para comprobarlo por uno mismo.
 
