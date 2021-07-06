@@ -4,7 +4,7 @@ Este es un script escrito en python que sirve para descargar y convertir videos 
 
 También sirve para descargar playlist enteras!.
 
-#Si ejecutas el script directamente con python es importante que ya previamente hayas instalado los modulos necesarios#
+# Si ejecutas el script directamente con python es importante que ya previamente hayas instalado los modulos necesarios #
 
 Módulos usados:
 
