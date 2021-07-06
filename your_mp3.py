@@ -4,7 +4,6 @@ from pytube import Playlist
 import tkinter
 import tkinter.filedialog
 import shutil
-
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
 
@@ -49,12 +48,12 @@ playlist = Playlist(inp)
 video = inp
 
 crear_ventana("¿Es una playlist?",
-              "Solo pon Si o No como pongas otra cosa no va a funcionar e.e")
+              "Solo pon Si o No , como pongas otra cosa no va a funcionar e.e")
 
 while inp.lower() != "si" and inp.lower() != "no":
 
     crear_ventana("¿Es una playlist?",
-                  "Te dije que solo pongas Si o No como pongas otra cosa no va a funcionar e.e")
+                  "Te dije que solo pongas Si o No , como pongas otra cosa no va a funcionar e.e")
 
 # -----------------------------------------------------------------------------------------------
 
@@ -63,11 +62,11 @@ if inp.lower() == "no":
     video = pytube.YouTube(video)
 
     crear_ventana("¿Quieres borrar el video original?",
-              "Solo pon Si o No como pongas otra cosa no va a funcionar e.e")
+              "Solo pon Si o No , como pongas otra cosa no va a funcionar e.e")
 
     while inp.lower() != "si" and inp.lower() != "no":
 
-        crear_ventana("¿Quieres borrar el video original?", "Solo pon Si o No como pongas otra cosa no va a funcionar e.e")
+        crear_ventana("¿Quieres borrar el video original?", "Solo pon Si o No , como pongas otra cosa no va a funcionar e.e")
 
     print("Okay ahora introduce la carpeta que quieres para guardar el archivo (Saldrá una ventana escondida así que minimiza lo que tengas)")
 
@@ -116,11 +115,11 @@ if inp.lower() == "no":
 elif inp.lower() == "si":
 
     crear_ventana("¿Quieres borrar los videos originales?",
-              "Solo pon Si o No como pongas otra cosa no va a funcionar e.e")
+              "Solo pon Si o No , como pongas otra cosa no va a funcionar e.e")
 
     while inp.lower() != "si" and inp.lower() != "no":
 
-        crear_ventana("¿Quieres borrar los videos originales?", "Solo pon Si o No como pongas otra cosa no va a funcionar e.e")
+        crear_ventana("¿Quieres borrar los videos originales?", "Solo pon Si o No , como pongas otra cosa no va a funcionar e.e")
 
     print("Okay ahora introduce la carpeta que quieres para guardar el archivo (Saldrá una ventana escondida así que minimiza lo que tengas)")
 
